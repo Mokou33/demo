@@ -1,0 +1,43 @@
+.header{
+  display: flex;
+  justify-content: space-around;
+  height: 82px;
+
+  .logo{
+    display: flex;
+    align-items: center;
+    img{
+      width: 151px;
+    }
+  }
+
+  .nav{
+
+    ul{
+      display: flex;
+      width: 500px;
+      height: 100%;
+      justify-content: space-around;
+      align-items: center;
+
+      li{
+        display: inherit;
+        justify-content: center;
+        align-items: flex-end ;
+
+        a{
+          padding-bottom: 10px  ;
+          font-weight: bold;
+          font-size: 16px;
+          color: #000 !important;
+
+        }
+
+        a:hover{
+          color: #55C0D4 !important;
+          border-bottom: 1.25px solid  #55C0D4;
+        }
+      }
+    }
+  }
+}

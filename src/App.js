@@ -5,7 +5,8 @@ import {
     Route
 } from "react-router-dom";
 
-// import './App.css';
+
+import './comment/css/reset.css'
 
 import Layout from "./components/layout";
 import Home from "./components/home";
@@ -16,10 +17,29 @@ import Home from "./components/home";
 class App extends Component {
     render() {
         return (
-            <Router>
+            <Router >
                 <Layout>
                     <Switch>
-                        <Route path={'/'} components={Home}></Route>
+                        {/*{
+                            routers.map((item, index) => {
+                                return (
+                                    <Route
+                                        key={index}
+                                        exact={item.exact}
+                                        path={item.path}
+                                        component={item.component}
+                                    ></Route>
+                                )
+                            })
+                        }*/}
+
+                        <Route path={'/'} exact component={Home}></Route>
+                        {/*<Route path={'/banner/:shopid'} component={LCar}></Route>
+                        <Route path={'/tabs'} component={TabsT}></Route>
+                        <Route path={'/shopcar'} component={ShopCar}></Route>
+                        <Route path={'/goods/:shopid'} component={LCar}></Route>
+                        <Route path={'/my'} component={My}></Route>
+                        <Route component={NotFound} ></Route>*/}
                     </Switch>
                 </Layout>
             </Router>
