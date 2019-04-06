@@ -9,7 +9,9 @@ import {
 import './comment/css/reset.css'
 
 import Layout from "./components/layout";
-import Home from "./components/home";
+import {routers} from "./components/routers";
+
+
 
 
 
@@ -20,26 +22,18 @@ class App extends Component {
             <Router >
                 <Layout>
                     <Switch>
-                        {/*{
-                            routers.map((item, index) => {
-                                return (
-                                    <Route
-                                        key={index}
-                                        exact={item.exact}
-                                        path={item.path}
-                                        component={item.component}
-                                    ></Route>
-                                )
-                            })
-                        }*/}
-
-                        <Route path={'/'} exact component={Home}></Route>
-                        {/*<Route path={'/banner/:shopid'} component={LCar}></Route>
-                        <Route path={'/tabs'} component={TabsT}></Route>
-                        <Route path={'/shopcar'} component={ShopCar}></Route>
-                        <Route path={'/goods/:shopid'} component={LCar}></Route>
-                        <Route path={'/my'} component={My}></Route>
-                        <Route component={NotFound} ></Route>*/}
+                        {
+                        routers.map((item, index) => {
+                            return (
+                                <Route
+                                    key={index}
+                                    exact={item.exact}
+                                    path={item.path}
+                                    component={item.component}
+                                ></Route>
+                            )
+                        })
+                    }
                     </Switch>
                 </Layout>
             </Router>

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {NavLink} from "react-router-dom";
 
 
 import  "./index.scss";
@@ -14,11 +15,11 @@ class Header extends Component {
                 </div>
                 <div className="nav">
                     <ul>
-                        <li><a href="/">首页</a></li>
-                        <li><a href="/">服务内容</a></li>
-                        <li><a href="/">合作优势</a></li>
-                        <li><a href="/">98介绍</a></li>
-                        <li><a href="/">快速资源</a></li>
+                        <li><NavLink activeClassName="selected" exact to='/'>首页</NavLink></li>
+                        <li><NavLink activeClassName="selected" to='/serve'>服务内容</NavLink></li>
+                        <li><NavLink activeClassName="selected" to='/cooperation'>合作优势</NavLink></li>
+                        <li><NavLink activeClassName="selected" to='/recommend'>98介绍</NavLink></li>
+                        <li><NavLink activeClassName="selected" to='/rare'>快速资源</NavLink></li>
                     </ul>
                 </div>
             </div>

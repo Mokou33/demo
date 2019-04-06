@@ -1,0 +1,116 @@
+.ant-input{
+  width: 260px !important;
+  height: 44px !important;
+  border-color: #DBDBDB !important;
+}
+
+
+
+.contact{
+  padding-top: 110px;
+  //background-color: #0ff;
+  box-sizing: border-box;
+  .tit{
+    position: relative;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #DBDBDB;
+    text-align: center;
+    box-sizing: border-box;
+
+    h2{
+      font-size: 25px;
+    }
+  }
+  .tit:after{
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    margin: auto;
+    width: 42px;
+    height: 6px;
+    background-color: #55C0D4;
+  }
+  .form{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    height: 400px;
+    margin: auto;
+    color: #000;
+    box-sizing: border-box;
+
+
+    .foLeft{
+      width: 260px;
+      height: 100%;
+      p{
+        font-weight: bold;
+      }
+      .rx, .email{
+        display: flex;
+        justify-content: space-around;
+        height: 90px;
+        i{
+          line-height: 90px;
+          font-size: 44px;
+        }
+        .pro{
+          padding-top: 16px;
+          box-sizing: border-box;
+          p:nth-child(1){
+            font-size: 12px;
+          }
+          p:last-child{
+            font-size: 20px;
+          }
+        }
+      }
+
+      .wxPic{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 38px;
+      }
+    }
+
+
+    .foRight{
+      width: 775px;
+      height: 100%;
+
+      .formTxt{
+        display: flex;
+        justify-content: space-between;
+        .ant-input:not(:last-child){
+          margin-bottom: 52px;
+        }
+        .foLeft{
+          width: 262px;
+        }
+        .foRight{
+          width: 470px;
+          .ant-input{
+            width: 470px !important;
+            height: 230px !important;
+          }
+        }
+      }
+
+      .btn{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 20px;
+        .sub{
+          width: 185px;
+          height: 41px;
+          margin-right: 6px;
+        }
+        .reset{
+          width: 115px;
+          height: 41px;
+        }
+      }
+    }
+  }
+}

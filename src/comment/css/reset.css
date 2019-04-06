@@ -6,8 +6,8 @@ html{
     -webkit-text-size-adjust: 100%; /*解决默认会放大文字的问题*/
     text-size-adjust: none;
     color: #333 !important;
-    -webkit-user-select: none;
-    user-select: none;
+    /*-webkit-user-select: none;*/
+    /*user-select: none;*/
     min-width: 1200px;
     /*background-color: pink;  !*        test      *!*/
 }

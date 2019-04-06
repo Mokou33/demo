@@ -8,9 +8,8 @@ import Introduce from "../introduce";
 import Honour from "../honour";
 import Values from "../values";
 import Method from "../method";
-
-
-
+import Team from "../team";
+import Contact from "../contact";
 import Footer from "../footer";
 
 
@@ -26,7 +25,9 @@ class Home extends Component {
                 <Honour></Honour>
                 <Values></Values>
                 <Method></Method>
-                {/*<Footer></Footer>*/}
+                <Team></Team>
+                <Contact></Contact>
+                <Footer></Footer>
             </div>
         );
     }

@@ -33,10 +33,14 @@
 
         }
 
-        a:hover{
+        .selected{
           color: #55C0D4 !important;
           border-bottom: 1.25px solid  #55C0D4;
         }
+        //a:hover{
+        //  color: #55C0D4 !important;
+        //  border-bottom: 1.25px solid  #55C0D4;
+        //}
       }
     }
   }
