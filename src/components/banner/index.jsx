@@ -9,7 +9,7 @@ class Banner extends Component {
     render() {
         return (
             <div className={"banner"}>
-                <Carousel autoplay>
+                <Carousel autoplay={true}>
                     <img src={require("../../assets/img/banner/banner_02.png")} alt="banner"/>
                     <img src={require("../../assets/img/banner/banner_03.png")} alt="banner"/>
                 </Carousel>,

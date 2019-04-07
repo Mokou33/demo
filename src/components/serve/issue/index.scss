@@ -1,0 +1,114 @@
+.issue{
+  padding-bottom: 70px;
+
+  .tit{
+    position: relative;
+    padding-top: 16px;
+    height: 128px;
+    text-align: center;
+    border-bottom: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    h2{
+      font-size: 30px;
+      font-weight: bold;
+      color: #000;
+    }
+  }
+  .tit:after{
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 42px;
+    height: 6px;
+    background-color: #55C0D4;
+  }
+  .cooDtails{
+
+    width: 1130px;
+    margin: 0 auto;
+    .dtaTit{
+      text-align: center;
+    }
+    h3{
+      font-size: 20px;
+      color: #666666;
+    }
+
+    .cooCon{
+      padding:0 35px 35px 35px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+
+      .cooPic{
+        width: 335px;
+        height: 360px;
+        margin-bottom: 24px;
+        border: 1px solid #DBDBDB;
+        h3{
+          margin-top: 16px;
+          font-size: 20px;
+          font-weight: bold;
+          text-indent: 10px;
+        }
+        img{
+          width: 100%;
+        }
+        .txt{
+          padding:18px 0;
+          font-weight: bold;
+          color: #666666;
+          //margin-top: 20px;
+          text-indent: 10px;
+          border-top: 1px solid #DBDBDB;
+
+
+          p{
+            margin-bottom: 0;
+          }
+        }
+
+        .emp{
+          position: relative;
+          height: 225px;
+
+          i{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: #55C0D4;
+            border-radius: 50%;
+
+          }
+          i:before{
+            position: absolute;
+            content: '';
+            width: 5px;
+            height: 40px;
+            background-color: #fff;
+
+          }
+          i:after{
+            position: absolute;
+            content: '';
+            width: 40px;
+            height: 5px;
+            background-color: #fff;
+          }
+          i, i:before, i:after{
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+          }
+        }
+      }
+    }
+  }
+}

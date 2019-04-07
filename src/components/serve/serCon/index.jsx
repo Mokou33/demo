@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 
 
 
@@ -15,7 +15,7 @@ class SerCon extends Component {
             <div className="sercon">
                 <div className="tit">
                     <h2>THE SERVICE CONTENT</h2>
-                    <h2>服 务 内 容</h2>
+                    <h2>服务内容</h2>
                 </div>
                 <div className="serDtails">
                     <h3>以业绩为核心，全方位服务体系</h3>

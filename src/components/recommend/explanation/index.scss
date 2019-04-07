@@ -1,0 +1,60 @@
+.explanation{
+  
+  padding: 44px;
+  background-color: #F6F6F6;
+  text-align: center;
+  
+  h2{
+    color: #C30D23;
+    font-size: 70px;
+    font-weight: bold;
+  }
+
+  .tip{
+
+    span{
+      font-size: 30px;
+      color: #000;
+      background-color: #f9d3d3;
+    }
+  }
+  .conWrap{
+    display: flex;
+    justify-content: space-between;
+    width: 1025px;
+    margin: 40px auto;
+    .content{
+      width: 170px;
+      height: 260px;
+      background-color: #fff;
+
+      .ico{
+        padding-top: 3px;
+        width: 88px;
+        height: 88px;
+        border: 2px solid #999999;
+        border-radius: 50%;
+        margin: 25px auto;
+        p{
+          margin-bottom: 0;
+          color: #999999;
+          font-size: 24px;
+          font-weight: bold;
+        }
+      }
+      .word{
+        padding: 0 19px;
+        p{
+          margin-bottom: 0;
+          font-weight: bold;
+          font-size: 16px;
+          color: #999999;
+          
+          span{
+            background-color: #f9d3d3;
+          }
+        }
+      }
+    }
+  }
+}
