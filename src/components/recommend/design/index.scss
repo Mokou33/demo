@@ -1,3 +1,63 @@
 .design{
+  padding: 60px 0 85px;
+  text-align: center;
+  h2{
+    color: #6C5182;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
 
+  h3{
+
+    font-size: 40px;
+    font-weight: bold;
+    span{
+      background-color: #f9d3d3;
+    }
+  }
+  .con{
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    margin: 0 auto;
+    .box{
+      width: 264px;
+      height: 264px;
+    }
+    .box:nth-child(1){
+      background: url("../../../assets/img/recommend/design_01.png");
+    }
+    .box:nth-child(2){
+      background: url("../../../assets/img/recommend/design_02.png");
+    }
+    .box:nth-child(3){
+      background: url("../../../assets/img/recommend/design_03.png") -6px -10px;
+    }
+    .box:nth-child(4){
+      background: url("../../../assets/img/recommend/design_04.png")  -2px -8px;
+    }
+    .box:nth-child(1):hover{
+      background: url("../../../assets/img/recommend/designs_01.png");
+    }
+    .box:nth-child(2):hover{
+      background: url("../../../assets/img/recommend/designs_02.png");
+    }
+    .box:nth-child(3):hover{
+      background: url("../../../assets/img/recommend/designs_03.png") -6px -10px;
+    }
+    .box:nth-child(4):hover{
+      background: url("../../../assets/img/recommend/designs_04.png")  -2px -8px;
+    }
+
+  }
+  .tip{
+    margin-top: 70px;
+    p{
+      span{
+        color: #6C5182;
+        font-size: 24px;
+      }
+    }
+  }
 }

@@ -43,7 +43,7 @@ class Case extends Component {
                         <li><img src={require("../../assets/img/server/hezuoanli_img_28.jpg")} alt=""/></li>
                     </ul>
                     <div className="caseMore">
-                        <a href="#">查看更多</a>
+                        <a href="/">查看更多</a>
                     </div>
                 </div>
             </div>

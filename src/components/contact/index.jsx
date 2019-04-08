@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
+import $ from 'jquery';
 import {
     Input, Button,
 } from 'antd';
 import "./index.scss"
-import "antd/lib/input/style/css"
-import "antd/lib/button/style/css"
 
 
 class Contact extends Component {
@@ -44,7 +43,23 @@ class Contact extends Component {
 
     //提交
     handleSub = () => {
+
+        let that = this;
         if(!(this.state.name&&this.state.tel&&this.state.email&&this.state.message)) return alert("请填写完整")
+        $.post({
+            url:"http://localhost:3001/",
+            type:"POST",
+            data:this.state,
+            success: function (data) {
+                alert("提交成功")
+                that.hangleReset()
+            },
+            error: function () {
+                console.log("失败")
+            }
+
+        })
+
     }
 
     //重置
@@ -56,9 +71,6 @@ class Contact extends Component {
             message: "",
         })
     }
-
-
-
 
 
     render() {

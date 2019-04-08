@@ -25,19 +25,19 @@ class SerCon extends Component {
                                 <img src={require("../../../assets/img/server/server_01.png")} alt=""/>
                                 <h4>商业模式建立</h4>
                                 <p>打造一个可持续盈利的商业模式</p>
-                                <a className="more">了解更多</a>
+                                <a className="more" href="/">了解更多</a>
                             </div>
                             <div className="serPic">
                                 <img src={require("../../../assets/img/server/server_02.png")} alt=""/>
                                 <h4>商业模式建立</h4>
                                 <p>打造一个可持续盈利的商业模式</p>
-                                <a className="more">了解更多</a>
+                                <a className="more" href="/">了解更多</a>
                             </div>
                             <div className="serPic">
                                 <img src={require("../../../assets/img/server/server_03.png")} alt=""/>
                                 <h4>商业模式建立</h4>
                                 <p>打造一个可持续盈利的商业模式</p>
-                                <a className="more">了解更多</a>
+                                <a className="more" href="/">了解更多</a>
                             </div>
                         </div>
                         <div className="conBot">
@@ -45,19 +45,19 @@ class SerCon extends Component {
                                 <img src={require("../../../assets/img/server/server_04.png")} alt=""/>
                                 <h4>商业模式建立</h4>
                                 <p>打造一个可持续盈利的商业模式</p>
-                                <a className="more">了解更多</a>
+                                <a className="more" href="/">了解更多</a>
                             </div>
                             <div className="serPic">
                                 <img src={require("../../../assets/img/server/server_05.png")} alt=""/>
                                 <h4>商业模式建立</h4>
                                 <p>打造一个可持续盈利的商业模式</p>
-                                <a className="more">了解更多</a>
+                                <a className="more" href="/">了解更多</a>
                             </div>
                             <div className="serPic">
                                 <img src={require("../../../assets/img/server/server_06.png")} alt=""/>
                                 <h4>商业模式建立</h4>
                                 <p>打造一个可持续盈利的商业模式</p>
-                                <a className="more">了解更多</a>
+                                <a className="more" href="/">了解更多</a>
                             </div>
                         </div>
                     </div>

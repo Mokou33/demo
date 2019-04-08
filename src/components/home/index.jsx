@@ -19,15 +19,15 @@ class Home extends Component {
     render() {
         return (
             <div className={'wrap'}>
-                <Header></Header>
-                <Banner></Banner>
-                <Introduce></Introduce>
-                <Honour></Honour>
-                <Values></Values>
-                <Method></Method>
-                <Team></Team>
-                <Contact></Contact>
-                <Footer></Footer>
+                <Header />
+                <Banner />
+                <Introduce />
+                <Honour />
+                <Values />
+                <Method />
+                <Team />
+                <Contact />
+                <Footer />
             </div>
         );
     }

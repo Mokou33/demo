@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 import "./index.scss"
-import "antd/lib/carousel/style/css"
 import { Carousel } from 'antd';
 
 
