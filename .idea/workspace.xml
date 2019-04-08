@@ -5,30 +5,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/components/serve/serCon/index.scss" line="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f05cbd6d-8888-4aa5-860d-02c9a75004e6" name="Default Changelist" comment="主页交互完成&#10;服务内容部分&#10;98介绍">
-      <change afterPath="$PROJECT_DIR$/src/components/recommend/diffuse/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recommend/diffuse/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recommend/includ/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recommend/includ/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recommend/pack/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recommend/pack/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recommend/plan/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recommend/plan/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recommend/tactic/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recommend/tactic/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recommend/train/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/recommend/train/index.scss" afterDir="false" />
+    <list default="true" id="f05cbd6d-8888-4aa5-860d-02c9a75004e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/banner/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/banner/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/case/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/case/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/design/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/design/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/design/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/design/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/index/recommend.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/index/recommend.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/serve/serCon/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/serve/serCon/index.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,103 +21,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/recommend/pack/index.jsx">
+        <entry file="file://$PROJECT_DIR$/src/components/home/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="506">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/recommend/pack/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/recommend/train/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/recommend/train/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/banner/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/recommend/index/recommend.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/contact/index.jsx">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/serve/serCon/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="59" column="60" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/case/index.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="946">
-              <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" selection-start-column="15" selection-end-column="15" />
+            <state relative-caret-position="92">
+              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -162,7 +60,6 @@
         <option value="$PROJECT_DIR$/src/components/header/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/home/index.scss" />
         <option value="$PROJECT_DIR$/src/components/serve/serCon/index.scss" />
-        <option value="$PROJECT_DIR$/src/components/home/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/serve/coopAdv/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/serve/coopAdv/index.scss" />
         <option value="$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.jsx" />
@@ -198,7 +95,6 @@
         <option value="$PROJECT_DIR$/src/comment/css/reset.css" />
         <option value="$PROJECT_DIR$/src/components/recommend/diffuse/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/recommend/diffuse/index.scss" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/banner/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/recommend/pack/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/recommend/pack/index.scss" />
@@ -209,6 +105,8 @@
         <option value="$PROJECT_DIR$/src/components/serve/serCon/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/case/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/contact/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/home/index.jsx" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -219,8 +117,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="144" />
-    <option name="y" value="52" />
+    <option name="x" value="261" />
+    <option name="y" value="124" />
     <option name="width" value="1525" />
     <option name="height" value="895" />
   </component>
@@ -248,6 +146,13 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,7 +214,7 @@
       <workItem from="1554341558355" duration="24681000" />
       <workItem from="1554509789393" duration="29832000" />
       <workItem from="1554597193983" duration="29890000" />
-      <workItem from="1554684417035" duration="25131000" />
+      <workItem from="1554684417035" duration="25757000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1554341893990</created>
@@ -353,11 +258,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554631764519</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="布局及交互完成">
+      <created>1554717465460</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1554717465460</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111010000" />
+    <option name="totallyTimeSpent" value="111636000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,10 +281,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="118" width="1525" height="895" extended-state="0" />
+    <frame x="261" y="124" width="1525" height="895" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.230821" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15477793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -451,7 +363,8 @@
     <MESSAGE value="主页部分（foot未完成）" />
     <MESSAGE value="主页交互完成&#10;服务内容部分（进行中）" />
     <MESSAGE value="主页交互完成&#10;服务内容部分&#10;98介绍" />
-    <option name="LAST_COMMIT_MESSAGE" value="主页交互完成&#10;服务内容部分&#10;98介绍" />
+    <MESSAGE value="布局及交互完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="布局及交互完成" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.scss">
@@ -717,16 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/recommend/diffuse/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -762,10 +665,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/components/recommend/pack/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="127" column="4" lean-forward="true" selection-start-line="127" selection-start-column="4" selection-end-line="127" selection-end-column="4" />
+        <state relative-caret-position="166">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -773,20 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/recommend/train/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -800,13 +692,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/recommend/pack/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/recommend/train/index.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/banner/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -814,6 +710,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
           <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/contact/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="112" column="10" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -834,20 +740,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/banner/index.jsx">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/contact/index.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/home/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+        <state relative-caret-position="506">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
