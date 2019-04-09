@@ -8,7 +8,7 @@ class Introduce extends Component {
             <div className={"introduce"}>
                 <div className="left">
                     <div className="video">
-                        视频
+                        <video  src=""></video>
                     </div>
                 </div>
                 <div className="right">

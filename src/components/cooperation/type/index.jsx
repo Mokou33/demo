@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 
 import "./index.scss"
 
-
 class Type extends Component {
     render() {
         return (
@@ -35,31 +34,31 @@ class Type extends Component {
                             <div className="top">
                                 <img src={require("../../../assets/img/coop/flow_02.png")} alt=""/>
                             </div>
-                            <span>项目立案</span>
+                            <span>项目诊断</span>
                         </div>
                         <div className="pic">
                             <div className="top">
                                 <img src={require("../../../assets/img/coop/flow_03.png")} alt=""/>
                             </div>
-                            <span>项目立案</span>
+                            <span>制定策略</span>
                         </div>
                         <div className="pic">
                             <div className="top">
                                 <img src={require("../../../assets/img/coop/flow_04.png")} alt=""/>
                             </div>
-                            <span>项目立案</span>
+                            <span>招商设计</span>
                         </div>
                         <div className="pic">
                             <div className="top">
                                 <img src={require("../../../assets/img/coop/flow_05.png")} alt=""/>
                             </div>
-                            <span>项目立案</span>
+                            <span>业绩落地</span>
                         </div>
                         <div className="pic">
                             <div className="top">
                                 <img src={require("../../../assets/img/coop/flow_06.png")} alt=""/>
                             </div>
-                            <span>项目立案</span>
+                            <span>优化复制</span>
                         </div>
                     </div>
                     <div className="sub">

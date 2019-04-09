@@ -1,0 +1,56 @@
+.sale{
+  border-bottom: 1px solid #DBDBDB;
+  .con{
+    text-align: center;
+    h2{
+      position: relative;
+      font-size: 80px;
+      color: #666666;
+      span{
+        color: #95355D;
+        font-weight: bold;
+      }
+    }
+    h2:after{
+      position: absolute;
+      content: '';
+      width: 150px;
+      height: 6px;
+      bottom: -20px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color: #DBDBDB;
+    }
+
+  }
+  .box{
+    display: flex;
+    justify-content: space-around;
+    width: 1700px;
+    margin: 70px auto;
+    .bCon{
+      width: 300px;
+      height: 450px;
+      text-align: center;
+      p{
+        font-size: 36px;
+        margin-bottom: 0;
+      }
+      P.num{
+        span{
+          display: inline-block;
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          font-weight: bold;
+          border: 1px solid #666;
+          border-radius: 50%;
+        }
+      }
+      img{
+        margin-bottom: 40px;
+      }
+    }
+  }
+}

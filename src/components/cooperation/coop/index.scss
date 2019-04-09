@@ -1,8 +1,108 @@
 .coop{
-  //position: relative;
-  //top: -24px;
-  height: 940px;
-  img{
-    width: 100%;
+
+  padding: 60px;
+  background: url("../../../assets/img/coop/coopbg.png") no-repeat center;
+  text-align: center;
+  h2{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #CCAC62;
+  }
+  h3{
+    font-size: 24px;
+    color: #666;
+  }
+  .con{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1164px;
+    //height: 670px;
+    margin: auto;
+    border: 1px solid red;
+
+    .conWa1, .conWa2{
+      display: inherit;
+      justify-content: space-between;
+      width: 100%;
+      color: #666;
+      .box{
+        position: relative;
+        display: inherit;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 220px;
+        margin-bottom: 114px;
+        border: 3px solid #666;
+        border-radius: 50%;
+        font-size: 24px;
+        p{
+          margin-bottom: 10px;
+        }
+      }
+      .box:after{
+        position: absolute;
+        content: '1';
+        width: 50px;
+        height: 50px;
+        top: 0;
+        left: 0;
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        background-color: #CCAC62;
+        border:3px solid #fff;
+        border-radius: 50%;
+      }
+      .box:hover{
+        color: #fff;
+        background-color: #95355D;
+      }
+    }
+    .conWa1 .box:nth-child(2):after{
+      content: '2';
+    }
+    .conWa1 .box:nth-child(3):after{
+      content: '3';
+    }
+    .conWa2 .box:nth-child(1):after{
+      content: '4';
+    }
+    .conWa2 .box:nth-child(2):after{
+      content: '5';
+    }
+    .conWa2 .box:nth-child(3):after{
+      content: '6';
+    }
+
+  }
+
+  .posi{
+    img{
+      position: absolute;
+    }
+
+    img:nth-child(1){
+      top:80px;
+      left: 280px;
+    }
+    img:nth-child(2){
+      top:80px;
+      right: 280px;
+    }
+    img:nth-child(3){
+      top:222px;
+      right: 85px;
+    }
+    img:nth-child(4){
+      bottom:190px;
+      right: 280px;
+    }
+    img:nth-child(5){
+      bottom: 190px;
+      left: 280px;
+    }
   }
 }

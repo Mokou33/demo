@@ -1,7 +1,67 @@
 .pub{
-  //height: 650px;
+  //height: 447px;
   padding-top: 120px;
-  img{
-    width: 100%;
+  .adv{
+    display: flex;
+    height: 447px;
+    .con{
+      padding: 80px 15px 0;
+      width: 267px;
+      height: 100%;
+      color: #fff;
+      background-color: #2CA79F;
+      font-size: 16px;
+      box-sizing: border-box;
+      .bottom{
+        margin-top: 50px;
+        p{
+          margin-bottom: 0;
+          font-size: 27px;
+        }
+      }
+    }
+    .box2{
+      width: 830px;
+      height: 100%;
+      img{
+        width: 414px;
+        transition: all 1s ease 0s;
+      }
+      img:hover{
+        transform: scale(1.05);
+      }
+    }
+    .box3{
+      width: 380px;
+      height: 100%;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .box, .con,  .box3{
+      transition: all 1s ease 0s;
+    }
+    .box:hover, .con:hover,   .box3:hover{
+      transform: scale(1.05);
+    }
+  }
+  .tip{
+    padding: 45px 200px;
+    text-align: center;
+    color: #fff;
+    background: url("../../../assets/img/server/advbg.png") no-repeat center/cover;
+    p{
+      display: flex;
+      justify-content: space-around;
+      font-size: 30px;
+    }
+    p:last-child{
+      justify-content: center;
+      span{
+        display: inline-block;
+        padding-right: 35px;
+      }
+    }
   }
 }

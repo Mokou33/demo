@@ -26,6 +26,7 @@
       >div{
         width: 176px;
         height: 100%;
+        transition: all 1s ease 0s;
         h3{
           color: #fff;
           height: 53px;
@@ -41,6 +42,9 @@
           font-size: 18px;
           line-height: 1.8;
         }
+      }
+      >div:hover{
+        transform: scale(1.2);
       }
       .bom1{
         background-color: #D58E1D;

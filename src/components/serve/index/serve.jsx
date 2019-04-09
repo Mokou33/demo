@@ -20,16 +20,16 @@ class Serve extends Component {
     render() {
         return (
             <div>
-                <Header></Header>
-                <Banner></Banner>
-                <SerCon></SerCon>
-                <CooAdv></CooAdv>
-                <CooAdvinfo></CooAdvinfo>
-                <Issue></Issue>
-                <Case></Case>
-                <Pub></Pub>
-                <Contact></Contact>
-                <Footer></Footer>
+                <Header />
+                <Banner />
+                <SerCon />
+                <CooAdv />
+                <CooAdvinfo />
+                <Issue />
+                <Case />
+                <Pub />
+                <Contact />
+                <Footer />
             </div>
         );
     }

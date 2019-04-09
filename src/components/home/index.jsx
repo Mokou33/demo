@@ -12,9 +12,6 @@ import Team from "../team";
 import Contact from "../contact";
 import Footer from "../footer";
 
-
-
-
 class Home extends Component {
     render() {
         return (

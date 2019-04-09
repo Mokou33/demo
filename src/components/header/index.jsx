@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {NavLink} from "react-router-dom";
+import {NavLink,Link} from "react-router-dom";
 
 
 import  "./index.scss";
@@ -7,11 +7,15 @@ import  "./index.scss";
 
 
 class Header extends Component {
+
     render() {
         return (
             <div className={'header'}>
                 <div className="logo">
-                    <img src={require("../../assets/img/header/logo.png")} alt="98加盟网"/>
+                    <Link exact="true" to={"/"}>
+                        <img src={require("../../assets/img/header/logo.png")} alt="98加盟网"/>
+                    </Link>
+
                 </div>
                 <div className="nav">
                     <ul>

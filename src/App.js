@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route
 } from "react-router-dom";
@@ -19,7 +19,7 @@ import {routers} from "./components/routers";
 class App extends Component {
     render() {
         return (
-            <Router >
+            <Router basename={"98jiameng"}>
                 <Layout>
                     <Switch>
                         {

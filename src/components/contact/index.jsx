@@ -5,7 +5,6 @@ import {
 } from 'antd';
 import "./index.scss"
 
-
 class Contact extends Component {
     constructor() {
         super();
@@ -43,7 +42,6 @@ class Contact extends Component {
 
     //提交
     handleSub = () => {
-
         let that = this;
         if(!(this.state.name&&this.state.tel&&this.state.email&&this.state.message)) return alert("请填写完整")
         $.post({
@@ -61,7 +59,6 @@ class Contact extends Component {
         })
 
     }
-
     //重置
     hangleReset = () => {
         this.setState({
@@ -71,7 +68,6 @@ class Contact extends Component {
             message: "",
         })
     }
-
 
     render() {
 
@@ -108,7 +104,6 @@ class Contact extends Component {
                                 <Input placeholder="姓名：" value={this.state.name} onChange={this.handleNameChange}/>
                                 <Input placeholder="电话：" value={this.state.tel} onChange={this.handleTelChange}/>
                                 <Input placeholder="邮箱：" value={this.state.email} onChange={this.handleEmailChange}/>
-
                             </div>
                             <div className="foRight">
                                 <Input.TextArea placeholder="留言：" value={this.state.message} onChange={this.handleMessageChange}/>

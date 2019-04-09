@@ -48,7 +48,8 @@
         width: 335px;
         height: 360px;
         margin-bottom: 24px;
-        box-shadow: 10px 22px 30px #B5B4B4 , -10px 22px 30px #B5B4B4;
+        box-shadow: 10px 15px 20px #B5B4B4 , -10px 15px 20px #B5B4B4;
+        transition: all 1s ease 0s;
         img{
           width: 100%;
         }
@@ -62,6 +63,9 @@
             margin-bottom: 0;
           }
         }
+      }
+      .cooPic:hover{
+        transform: scale(1.05);
       }
     }
   }

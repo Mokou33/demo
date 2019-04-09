@@ -24,6 +24,9 @@
         span+span{
           margin-top: 10px;
         }
+        span:hover{
+          color: #666;
+        }
       }
       .details:before{
         position: absolute;
