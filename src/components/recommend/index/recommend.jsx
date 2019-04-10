@@ -21,7 +21,7 @@ class Recommend extends Component {
                 <Header />
                 <Banner />
                 <Explanation />
-                <Design></Design>
+                <Design />
                 <Includ />
                 <Plan />
                 <Tactic />

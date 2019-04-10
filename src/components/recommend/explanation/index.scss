@@ -15,7 +15,6 @@
     span{
       font-size: 30px;
       color: #000;
-      background-color: #f9d3d3;
     }
   }
   .conWrap{
@@ -27,7 +26,7 @@
       width: 170px;
       height: 260px;
       background-color: #fff;
-
+      transition: all .5s linear 0s;
       .ico{
         padding-top: 3px;
         width: 88px;
@@ -49,12 +48,16 @@
           font-weight: bold;
           font-size: 16px;
           color: #999999;
-          
-          span{
-            background-color: #f9d3d3;
-          }
+
         }
       }
+    }
+    .content:hover{
+      box-shadow: 10px 10px 20px #888888;
+    }
+    .content:hover p, .content:hover .ico{
+      color: #C30D23;
+      border-color: #C30D23;
     }
   }
 }

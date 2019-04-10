@@ -62,7 +62,7 @@ class Type extends Component {
                         </div>
                     </div>
                     <div className="sub">
-                        <span href="#">提交需求</span>
+                        <a href="#">提交需求</a>
                     </div>
                 </div>
             </div>

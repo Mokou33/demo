@@ -21,9 +21,9 @@ class Explanation extends Component {
                             <p>渠道</p>
                         </div>
                         <div className="word">
-                            <p><span>为您的企业建设</span></p>
-                            <p><span>接触消费者的各</span></p>
-                            <p><span>种途径</span></p>
+                            <p>为您的企业建设</p>
+                            <p>接触消费者的各</p>
+                            <p>种途径</p>
                         </div>
                     </div>
                     <div className="content">
@@ -32,10 +32,10 @@ class Explanation extends Component {
                             <p>能力</p>
                         </div>
                         <div className="word">
-                            <p><span>挖掘企业的绝对</span></p>
-                            <p><span>价值亮点以及98</span></p>
-                            <p><span>逐渐培养并进化</span></p>
-                            <p><span>成核心能力</span></p>
+                            <p>挖掘企业的绝对</p>
+                            <p>价值亮点以及98</p>
+                            <p>逐渐培养并进化</p>
+                            <p>成核心能力</p>
                         </div>
                     </div>
                     <div className="content">
@@ -44,9 +44,9 @@ class Explanation extends Component {
                             <p>模型</p>
                         </div>
                         <div className="word">
-                            <p><span>梳理现金流通路</span></p>
-                            <p><span>以及投入产出比</span></p>
-                            <p><span>的财务模型</span></p>
+                            <p>梳理现金流通路</p>
+                            <p>以及投入产出比</p>
+                            <p>的财务模型</p>
                         </div>
                     </div>
                     <div className="content">
@@ -55,10 +55,10 @@ class Explanation extends Component {
                             <p>链</p>
                         </div>
                         <div className="word">
-                            <p><span>提高企业的产品和</span></p>
-                            <p><span>服务的价值，加强</span></p>
-                            <p><span>关联性的上下游产</span></p>
-                            <p><span>业价值链条</span></p>
+                            <p>提高企业的产品和</p>
+                            <p>服务的价值，加强</p>
+                            <p>关联性的上下游产</p>
+                            <p>业价值链条</p>
                         </div>
                     </div>
                     <div className="content">
@@ -67,9 +67,9 @@ class Explanation extends Component {
                             <p>壁垒</p>
                         </div>
                         <div className="word">
-                            <p><span>98为客户打造竞争</span></p>
-                            <p><span>壁垒,增加市场核</span></p>
-                            <p><span>心竞争力；</span></p>
+                            <p>98为客户打造竞争</p>
+                            <p>壁垒,增加市场核</p>
+                            <p>心竞争力；</p>
                         </div>
                     </div>
                 </div>

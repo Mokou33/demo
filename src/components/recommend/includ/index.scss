@@ -1,14 +1,88 @@
 .inculd{
-  padding: 22px 0;
+  padding: 50px 0 310px;
   background-color: #F8F8F8;
-  .pic{
-    width: 927px;
-    height: 737px;
-    margin: 0 auto ;
+  text-align: center;
 
+  h2{
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+    color: #CCAC62;
+  }
+  .con{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin: 100px auto 0;
+    background-color: #CCAC62;
+    border-radius: 50%;
+    transition: all .5s ease 0s;
     img{
-      width: 100%;
-      height: 100%;
+      width: 170px;
+      height: 60px;
     }
+    h3{
+      color: #fff;
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    >div{
+      padding: 10px 15px 15px 15px;
+      position: absolute;
+      width: 160px;
+      height: 160px;
+      background-color: #CCAC62;
+      border-radius: 50%;
+      h4{
+        color: #fff;
+        font-size: 35px;
+        font-style: italic;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #000;
+      }
+      p{
+        margin-bottom: 0;
+        font-size: 20px;
+      }
+    }
+    .box1{
+      top: -80px;
+      left: -240px;
+    }
+    .box2{
+      top: 108px;
+      left: -256px;
+    }
+    .box3{
+      top: 270px;
+      left: -145px;
+    }
+    .box4{
+      top: 340px;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+    .box5{
+      top: 270px;
+      right: -145px;
+    }
+    .box6{
+      top: 108px;
+      right: -256px;
+    }
+    .box7{
+      top: -80px;
+      left: 330px;
+    }
+
+  }
+  .con:hover, .con>div:hover{
+    box-shadow: 0 0 20px #888888;
   }
 }

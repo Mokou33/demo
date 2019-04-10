@@ -19,13 +19,49 @@
     }
   }
   .con{
+    position: relative;
+    padding: 0 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 20px;
-    width: 867px;
-    height: 203px;
-    margin: 20px auto;
-    img{
-      width: 100%;
-      height: 100%;
+    width: 845px;
+    height: 160px;
+    margin: 50px auto;
+    border: 2px solid #666;
+    border-radius: 90px;
+    box-sizing: border-box;
+    .box{
+      font-weight: bold;
+      font-size: 35px;
+      color: #666;
     }
+    .spel{
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 187px;
+      height: 187px;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color: #666;
+      border-radius: 50%;
+      color: #CFAE69;
+      p{
+        font-size: 50px;
+        margin-bottom: 0;
+      }
+    }
+    .spel:hover{
+      background-color: #95355D;
+    }
+  }
+  .con:hover{
+
+    box-shadow: 0 0 20px #888888;
   }
 }

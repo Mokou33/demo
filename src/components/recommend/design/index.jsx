@@ -8,7 +8,7 @@ class Design extends Component {
         return (
             <div className="design">
                 <h2>招商系统设计</h2>
-                <h3><span>98招商为你快速建立招商体系</span></h3>
+                <h3>98招商为你快速建立招商体系</h3>
                 <div className="con">
                     <div className="box"></div>
                     <div className="box"></div>
