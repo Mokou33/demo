@@ -8,7 +8,6 @@ class CooAdvinfo extends Component {
     render() {
         return (
             <div className="cooAdvinfo">
-                {/*<img src={require("../../../assets/img/server/cooAdvinfo.png")} alt=""/>*/}
                 <div className="con">
                     <div className="box">
                         <p>快速见效</p>

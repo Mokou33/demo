@@ -6,31 +6,10 @@
     <bookmark url="file://$PROJECT_DIR$/public/index.html" line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f05cbd6d-8888-4aa5-860d-02c9a75004e6" name="Default Changelist" comment="">
+    <list default="true" id="f05cbd6d-8888-4aa5-860d-02c9a75004e6" name="Default Changelist" comment="二次細化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/banner/banner_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/banner/banner_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/banner/banner_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/banner/banner_03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/header/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/img/header/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cooperation/coop/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cooperation/coop/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cooperation/type/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cooperation/type/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cooperation/type/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cooperation/type/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/rare/content/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rare/content/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/rare/gene/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rare/gene/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/rare/index/rare.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rare/index/rare.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/rare/product/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rare/product/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/rare/sale/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/rare/sale/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/design/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/design/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/design/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/design/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/diffuse/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/diffuse/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/explanation/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/explanation/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/explanation/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/explanation/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/includ/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/includ/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/includ/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/includ/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/index/recommend.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/index/recommend.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/plan/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/plan/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/plan/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/plan/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/tactic/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/tactic/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/recommend/tactic/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/recommend/tactic/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/home/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
+            <state relative-caret-position="207">
               <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -55,11 +34,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/rare/index/rare.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/serve/index/serve.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/serve/pub/index.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -105,8 +108,6 @@
         <option value="$PROJECT_DIR$/src/components/serve/serCon/index.scss" />
         <option value="$PROJECT_DIR$/src/components/header/index.jsx" />
         <option value="$PROJECT_DIR$/src/components/serve/coopAdv/index.scss" />
-        <option value="$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.jsx" />
-        <option value="$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.scss" />
         <option value="$PROJECT_DIR$/src/components/serve/issue/index.scss" />
         <option value="$PROJECT_DIR$/src/components/case/index.scss" />
         <option value="$PROJECT_DIR$/src/components/serve/pub/index.jsx" />
@@ -133,6 +134,8 @@
         <option value="$PROJECT_DIR$/src/components/rare/sale/index.scss" />
         <option value="$PROJECT_DIR$/src/components/rare/product/index.scss" />
         <option value="$PROJECT_DIR$/src/components/rare/gene/index.scss" />
+        <option value="$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.scss" />
       </list>
     </option>
   </component>
@@ -143,8 +146,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="193" />
-    <option name="y" value="95" />
+    <option name="x" value="287" />
+    <option name="y" value="29" />
     <option name="width" value="1414" />
     <option name="height" value="948" />
   </component>
@@ -186,6 +189,29 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="rare" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="serve" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="serve" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="serve" type="462c0819:PsiDirectoryNode" />
+              <item name="pub" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +276,9 @@
       <workItem from="1554597193983" duration="29890000" />
       <workItem from="1554684417035" duration="26542000" />
       <workItem from="1554767636473" duration="27647000" />
-      <workItem from="1554878238477" duration="12440000" />
+      <workItem from="1554878238477" duration="12703000" />
+      <workItem from="1554943569260" duration="1552000" />
+      <workItem from="1554946053752" duration="1197000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1554341893990</created>
@@ -315,11 +343,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554804950440</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="二次細化">
+      <created>1554891438176</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1554891438176</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152508000" />
+    <option name="totallyTimeSpent" value="155520000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -331,10 +366,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="500" y="325" width="1414" height="948" extended-state="0" />
-    <editor active="true" />
+    <frame x="287" y="29" width="1414" height="948" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16727273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16727273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -415,7 +449,8 @@
     <MESSAGE value="主页交互完成&#10;服务内容部分&#10;98介绍" />
     <MESSAGE value="布局及交互完成" />
     <MESSAGE value="页面细化" />
-    <option name="LAST_COMMIT_MESSAGE" value="页面细化" />
+    <MESSAGE value="二次細化" />
+    <option name="LAST_COMMIT_MESSAGE" value="二次細化" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.js">
@@ -473,23 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/serve/issue/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -525,26 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/serve/pub/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/serve/index/serve.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,19 +727,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/home/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/rare/index/index.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/rare/index/index.scss" />
     <entry file="file://$PROJECT_DIR$/src/components/rare/content/index.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -805,10 +791,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/home/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/rare/index/rare.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/serve/pub/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/serve/cooAdvinfo/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/serve/index/serve.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
