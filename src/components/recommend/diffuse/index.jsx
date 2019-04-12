@@ -13,11 +13,37 @@ class Diffuse extends Component {
                 <div className="con">
                     <h3>98全面传播平台</h3>
                     <div className="pic">
-                        <div className="box"><img src={require("../../../assets/img/recommend/diffuse_01.png")} alt=""/></div>
+                        {/*<div className="box"><img src={require("../../../assets/img/recommend/diffuse_01.png")} alt=""/></div>
                         <div className="box"><img src={require("../../../assets/img/recommend/diffuse_02.png")} alt=""/></div>
                         <div className="box"><img src={require("../../../assets/img/recommend/diffuse_03.png")} alt=""/></div>
                         <div className="box"><img src={require("../../../assets/img/recommend/diffuse_04.png")} alt=""/></div>
-                        <div className="box"><img src={require("../../../assets/img/recommend/diffuse_05.png")} alt=""/></div>
+                        <div className="box"><img src={require("../../../assets/img/recommend/diffuse_05.png")} alt=""/></div>*/}
+                        <div className="box">
+                            <h4>广告网</h4>
+                            <p>AD networks</p>
+                            <i></i>
+                        </div>
+                        <div className="box">
+                            <h4>促销网</h4>
+                            <p>Sales network</p>
+                            <i></i>
+                        </div>
+                        <div className="box">
+                            <h4>公关网</h4>
+                            <p>Public relations</p>
+                            <p>network</p>
+                            <i></i>
+                        </div>
+                        <div className="box">
+                            <h4>销售网</h4>
+                            <p>network</p>
+                            <i></i>
+                        </div>
+                        <div className="box">
+                            <h4>关系网</h4>
+                            <p>networks</p>
+                            <i></i>
+                        </div>
                     </div>
                 </div>
 

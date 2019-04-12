@@ -21,24 +21,33 @@ class Pack extends Component {
                         type="card"
                         tabBarStyle = {{
                             color: "fff",
-
                         }}
 
                     >
                         <TabPane tab="项目一" key="1">
-                            <div className="box">1</div>
+                            <div className="box">
+                                <img src={require("../../../assets/img/case/08.jpg")} alt="项目一"/>
+                            </div>
                         </TabPane>
                         <TabPane tab="项目二" key="2">
-                            <div className="box">2</div>
-                        </TabPane>
+                            <div className="box">
+                                <img src={require("../../../assets/img/case/17.jpg")} alt="项目二"/>
+                            </div>
+                    </TabPane>
                         <TabPane tab="项目三" key="3">
-                            <div className="box">3</div>
+                            <div className="box">
+                                <img src={require("../../../assets/img/case/14.jpg")} alt="项目三"/>
+                            </div>
                         </TabPane>
                         <TabPane tab="项目四" key="4">
-                            <div className="box">4</div>
+                            <div className="box">
+                                <img src={require("../../../assets/img/case/48.jpg")} alt="项目四"/>
+                            </div>
                         </TabPane>
                         <TabPane tab="项目五" key="5">
-                            <div className="box">5</div>
+                            <div className="box">
+                                <img src={require("../../../assets/img/case/38.jpg")} alt="项目五"/>
+                            </div>
                         </TabPane>
                     </Tabs>,
                 </div>

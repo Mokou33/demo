@@ -6,13 +6,13 @@ class Inculd extends Component {
     render() {
         return (
             <div className="inculd">
-                {/*<div className="pic">
-                    <img src={require("../../../assets/img/recommend/conpic.png")} alt="招商系统"/>
-                </div>*/}
                 <h2>98招商系统包括：</h2>
                 <div className="con">
-                    <img src={require("../../../assets/img/header/logo.png")} alt="98jiamengwang"/>
-                    <h3>招商系统</h3>
+                    <div className="box">
+                        <img src={require("../../../assets/img/header/logo.png")} alt="98jiamengwang"/>
+                        <h3>招商系统</h3>
+                    </div>
+
                     <div className="box1">
                         <h4>A</h4>
                         <p>招商策略</p>

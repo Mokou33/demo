@@ -22,20 +22,48 @@
       background-color: #6C5182;
     }
     .pic{
+
       display: flex;
       justify-content: space-between;
       margin-top: 26px;
+
       .box{
+        position: relative;
+        padding: 75px 0 74px;
         width: 215px;
-        height: 215px;
-        transition: all 1s ease 0s;
-        img{
-          width: 100%;
-          height: 100%;
+        height: 220px;
+        background-color: #fff;
+        color: #666;
+        transition: all .5s ease 0s;
+        box-sizing: border-box;
+
+        h4{
+          color: #666;
+          margin-bottom: 0;
+          font-size: 30px;
+          font-weight: bold;
+        }
+        p{
+          margin-bottom: 0;
+          font-size: 18px;
+          font-weight: bold;
+          color: #666;
+        }
+        i{
+          position: absolute;
+          content: '';
+          top: 0;
+          left: 170px;
+          border: 23px solid #C2C1C1;
+          border-top-color: #F8F8F8;
+          border-right-color: #F8F8F8;
         }
       }
       .box:hover{
-        box-shadow: 0 0 20px #888888;
+        background-color: #6C5182;
+      }
+      .box:hover p, .box:hover h4{
+        color: #fff;
       }
     }
   }

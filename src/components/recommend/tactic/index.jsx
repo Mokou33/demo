@@ -11,7 +11,6 @@ class Tactic extends Component {
                 <p>98加盟深刻洞察国内经济发展的趋势与周期，</p>
                 <p className="spc">抓住企业发展的<span>黄金机会</span>，为企业做好战略定位</p>
                 <div className="con">
-                    {/*<img src={require("../../../assets/img/recommend/conpic3.png")} alt="pic"/>*/}
                     <div className="box">
                         <p>企业发展</p>
                         <p>方向设计</p>

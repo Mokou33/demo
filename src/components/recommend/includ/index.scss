@@ -11,25 +11,31 @@
   }
   .con{
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
     width: 250px;
     height: 250px;
     margin: 100px auto 0;
     background-color: #CCAC62;
     border-radius: 50%;
-    transition: all .5s ease 0s;
-    img{
-      width: 170px;
-      height: 60px;
-    }
-    h3{
-      color: #fff;
-      font-size: 40px;
-      font-weight: bold;
-      margin-bottom: 0;
+
+    .box{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      transition: all .5s ease 0s;
+      img{
+        width: 170px;
+        height: 60px;
+      }
+      h3{
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 0;
+      }
     }
     >div{
       padding: 10px 15px 15px 15px;
@@ -38,6 +44,7 @@
       height: 160px;
       background-color: #CCAC62;
       border-radius: 50%;
+      transition: all .5s ease 0s;
       h4{
         color: #fff;
         font-size: 35px;
@@ -49,6 +56,10 @@
         margin-bottom: 0;
         font-size: 20px;
       }
+    }
+    >div:hover{
+      background-color: #6C5182;
+      color: #fff;
     }
     .box1{
       top: -80px;
@@ -80,9 +91,9 @@
       top: -80px;
       left: 330px;
     }
-
   }
-  .con:hover, .con>div:hover{
+  .con .box:hover{
     box-shadow: 0 0 20px #888888;
+    background-color: #6C5182;
   }
 }

@@ -4,6 +4,8 @@ import Header from "../../header";
 import Banner from "../../banner";
 import Coop from "../coop";
 import Type from "../type";
+import Case from "../../case";
+
 import Contact from "../../contact";
 import Footer from "../../footer";
 
@@ -16,6 +18,7 @@ class Serve extends Component {
                 <Banner />
                 <Coop />
                 <Type />
+                <Case />
                 <Contact />
                 <Footer />
             </div>
