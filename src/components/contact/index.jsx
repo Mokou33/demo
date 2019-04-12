@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import $ from 'jquery';
 import {
-    Input, Button,
+    Input, Button
 } from 'antd';
 import "./index.scss"
 
@@ -28,6 +28,7 @@ class Contact extends Component {
         })
     }
 
+
     handleEmailChange = (e) =>{
         this.setState({
             email : e.target.value
@@ -38,6 +39,9 @@ class Contact extends Component {
         this.setState({
             message : e.target.value
         })
+        if(e.target.value.length > 200){
+            alert("最大输入字符为200")
+        }
     }
 
     //提交
@@ -101,12 +105,12 @@ class Contact extends Component {
                     <div className="foRight">
                         <div className="formTxt">
                             <div className="foLeft">
-                                <Input placeholder="姓名：" value={this.state.name} onChange={this.handleNameChange}/>
-                                <Input placeholder="电话：" value={this.state.tel} onChange={this.handleTelChange}/>
-                                <Input placeholder="邮箱：" value={this.state.email} onChange={this.handleEmailChange}/>
+                                <Input placeholder="姓名：" value={this.state.name} onChange={this.handleNameChange} maxLength={6}/>
+                                <Input placeholder="电话：" value={this.state.tel} onChange={this.handleTelChange} maxLength={12}/>
+                                <Input placeholder="邮箱：" value={this.state.email} onChange={this.handleEmailChange} />
                             </div>
                             <div className="foRight">
-                                <Input.TextArea placeholder="留言：" value={this.state.message} onChange={this.handleMessageChange}/>
+                                <Input.TextArea placeholder="留言：" value={this.state.message} onChange={this.handleMessageChange} />
                             </div>
                         </div>
                         <div className="btn">
