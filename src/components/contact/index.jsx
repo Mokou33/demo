@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import $ from 'jquery';
 import {
-    Input, Button
+    Input, Button, Form
 } from 'antd';
 import "./index.scss"
 
@@ -105,6 +105,25 @@ class Contact extends Component {
                     <div className="foRight">
                         <div className="formTxt">
                             <div className="foLeft">
+                                {/*<Form.Item*/}
+                                {/*    validateStatus="success"*/}
+                                {/*>*/}
+                                {/*    {getFieldDecorator(`intNum`, {*/}
+                                {/*        rules: [{ message: '不能为空', type: 'number' }, {*/}
+                                {/*            pattern: /^([1-9][0-9]*)+$/, message: '只能大于0的整数'*/}
+                                {/*        }],*/}
+                                {/*    })(*/}
+                                {/*        <Input  />*/}
+                                {/*    )}*/}
+
+                                {/*    /!*<Input*/}
+                                {/*        placeholder="姓名:"*/}
+                                {/*        id="error"*/}
+                                {/*        pattern={/^[1][3,4,5,7,8][0-9]{9}$/}*/}
+                                {/*    />*!/*/}
+                                {/*</Form.Item>*/}
+
+
                                 <Input placeholder="姓名：" value={this.state.name} onChange={this.handleNameChange} maxLength={6}/>
                                 <Input placeholder="电话：" value={this.state.tel} onChange={this.handleTelChange} maxLength={12}/>
                                 <Input placeholder="邮箱：" value={this.state.email} onChange={this.handleEmailChange} />

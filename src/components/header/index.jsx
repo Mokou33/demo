@@ -22,6 +22,7 @@ class Header extends Component {
                         <li><NavLink activeClassName="selected" exact to='/'>首页</NavLink></li>
                         <li><NavLink activeClassName="selected" to='/serve'>服务内容</NavLink></li>
                         <li><NavLink activeClassName="selected" to='/cooperation'>合作优势</NavLink></li>
+                        <li><NavLink activeClassName="selected" to='/classic'>经典案例</NavLink></li>
                         <li><NavLink activeClassName="selected" to='/recommend'>98介绍</NavLink></li>
                         <li><NavLink activeClassName="selected" to='/rare'>快速资源</NavLink></li>
                     </ul>
