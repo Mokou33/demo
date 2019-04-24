@@ -1,5 +1,11 @@
-.clcase{
 
+
+.clcase{
+  .selected{
+    //border: 1px solid #55C0D4;
+    background-color: #6c5182;
+    color: #fff !important;
+  }
   width: 1300px;
   margin: 20px auto;
 
@@ -17,6 +23,11 @@
       justify-content: flex-start;
       li{
         margin-right: 10px;
+        a{
+          padding: 5px;
+          color: #55C0D4 ;
+          border-radius: 5px;
+        }
       }
     }
   }

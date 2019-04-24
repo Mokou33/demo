@@ -1,8 +1,17 @@
 import React, {Component} from 'react';
 
+import {NavLink, Route} from "react-router-dom";
+
+
 import "./index.scss"
+import One from "../one";
+import Two from "../two";
+import Three from "../three";
+import Four from "../four";
+import Five from "../five";
 
 class Clcase extends Component {
+
 
 
 
@@ -13,44 +22,19 @@ class Clcase extends Component {
                 <div className="sort">
                     <span>分类:</span>
                     <ul className="sortCon">
-                        <li><a href="javascript:;">不限</a></li>
-                        <li><a href="javascript:;">分类一</a></li>
-                        <li><a href="javascript:;">分类二</a></li>
-                        <li><a href="javascript:;">分类三</a></li>
+                        <li><NavLink activeClassName="selected" to="/classic/one">VI设计</NavLink></li>
+                        <li><NavLink activeClassName="selected" to="/classic/two">包装设计</NavLink></li>
+                        <li><NavLink activeClassName="selected" to="/classic/three">网站设计</NavLink></li>
+                        <li><NavLink activeClassName="selected" to="/classic/four">空间设计</NavLink></li>
+                        <li><NavLink activeClassName="selected" to="/classic/five">电商设计</NavLink></li>
                     </ul>
                 </div>
                 <div className="con">
-                    <ul className="conUl">
-                        <li><img src={require("../../../assets/img/case/01.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/02.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/03.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/04.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/06.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/08.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/10.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/12.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/14.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/15.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/17.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/19.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/20.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/21.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/22.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/23.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/25.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/30.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/33.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/35.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/38.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/39.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/40.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/41.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/45.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/46.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/47.jpg")} alt="case"/></li>
-                        <li><img src={require("../../../assets/img/case/48.jpg")} alt="case"/></li>
-
-                    </ul>
+                        <Route path="/classic/one" component={One}></Route>
+                        <Route path="/classic/two" component={Two}></Route>
+                        <Route path="/classic/three" component={Three}></Route>
+                        <Route path="/classic/four" component={Four}></Route>
+                        <Route path="/classic/five" component={Five}></Route>
                 </div>
             </div>
         );

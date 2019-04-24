@@ -7,8 +7,8 @@ class Introduce extends Component {
         return (
             <div className={"introduce"}>
                 <div className="left">
-                    <div className="video">
-                        <video  src=""></video>
+                    <div className="pic">
+                        <img  src={require("../../assets/img/header/rec.jpg")}></img>
                     </div>
                 </div>
                 <div className="right">
